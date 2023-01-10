@@ -1,0 +1,30 @@
+{
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "compilerOptions": {
+        "charset": "utf8",
+        "module": "commonjs",
+        "target": "es2018",
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "noImplicitThis": false,
+        "alwaysStrict": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "noImplicitReturns": true,
+        "allowJs": true
+    },
+    "include": [
+        "src", "app.ts"    
+    ],
+    "exclude": ["node_modules", "reference_deprecated", "dist", "scripts"],
+    "typeRoots": [
+        "node_modules/@types"
+    ]
+}
